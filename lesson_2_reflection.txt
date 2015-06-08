@@ -1,0 +1,28 @@
+Question 1: 
+What happens when you initialize a repository? Why do you need to do it?
+
+Answer 1: 
+When a repository is initialized, a .git directory is created inside
+repository that has been initialized. This .git repository will track 
+down changes done to the files inside the directory as we create
+commits.
+
+We need to initialize a repository because this way we will be able
+to create commits, and therefore, create different versions of a
+directory. This will allow us to jump between versions if we make
+mistakes.
+
+Question 2:
+How is the staging area different from the working directory
+and the repository? What value do you think it offers?
+
+Answer 2:
+The working directory and repository represent files stored 
+somewhere in your computer. The staging files are not files
+that are created somewhere else in your computer inside some
+staging folder. The staging area represents the files
+that are going to be stored in the next commit. In other
+words, the upcoming commit is going to register the changes
+done only in the files that were added to the staging area.
+
+Question 3:
