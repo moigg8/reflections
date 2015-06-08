@@ -1,0 +1,100 @@
+Question 1: 
+How did viewing a diff between two versions of a file help
+you see the bug that was introduced?
+
+Answer 1:
+These two commands helped me see the bug because these two
+commands show the difference between the two files. By looking
+at the difference between my original file, and the file with the new
+changes, I was able to locate the changes I made and thus the new mistake
+I made. This was very useful. :)
+
+Question 2:
+How could having easy access to the entire history of a file make
+you a more efficient programmer in the long term?
+
+Answer 2:
+Occasional bugs can be inevitable sometimes, and there we need to
+find methods that can help us find these bugs easier so they can
+be fixed. Another major problem developers can sometimes face is
+the constant change they have to make to software. These changes
+can be due to change in software main goal, dislike of software
+by customer. 
+It is because of these situation that developers may want to save
+versions of software. Again, because of bugs and having to make
+changes to software constantly, it is important that software
+developers use version control programs for their projects.
+
+Question 3:
+What do you think are the pros and cons of manually choosing when
+to create a commit, like you do in Git, vs having versions automatically
+saved, like Google docs does.
+
+Answer 3:
+Pros:
+- Commits will make more sense to the user.
+- Non compiling committed files can be avoided this way.
+
+Cons:
+- commits might not make sense to the user.
+- Too many or too little amount of commits.
+
+Question 4:
+Why do you think some version control systems, like Git, allow saving
+files in one commit, while others, like Google Docs, treat each file
+separately?
+
+Answer 4:
+I think the reason for this is because when it comes to developing
+software applications, a single logical and substantial change to a project
+might involve changing code in multiple files. An example of the previous
+statement might be when editing a web page and a new HTML component with unique 
+features and attributes was added to the page. In this case, changes will need 
+to be made to the HTML, and possible to the CSS file as well. This being said,
+two files can be edited for a single commit (a project should be committed
+once a logical change has been made in the project).
+
+Question 5:
+How can you use the commands git log and git diff to view the history of file?
+
+Answer 5:
+The command git log shows the history of commits I have done so far in the
+current repository I am in. If I use the command git log --stat, not only does the Git Shell
+outputs the history of the times I committed a repository, it also outputs a few statistical
+values about the changes that were made in each commit. A couple of examples of statistical
+calues that are outputted once the git log -- stat is entered are: number of lines inserted
+and number of lines deleted.
+
+With the use of the commit ID, the command git diff can show me the changes that were
+made between two commits. The changes are colored with red or green depending on whether 
+a line was added or deleted.
+
+Question 6: 
+How might using version control make you more confident to make changes that could
+break something?
+
+Answer 6:
+Using version control enables me to jump from one version of a project from a 
+certain time to another version of the same project of another time. Versions
+are saved by committing. Once I commit and input a small message about that
+version of the project, I now know where I was and what I had done to my project
+at that point. Each commit is given a commit ID, and I can go back to a 
+specific version of my project by running the following command: 
+git checkout <commit_id>. This capabitlity of being able to commit different
+versions of my project and also being able to return to those versions of
+the project, makes me more confident in making hardcore and breakable changes to
+my projects because now I know that I can return to points in my project where
+it use to work just fine.
+
+Question 7:
+Now that you have your workspace set up, what do you want to try using Git for?
+
+Answer 7: Build an app! :)
+
+
+
+
+
+
+
+
