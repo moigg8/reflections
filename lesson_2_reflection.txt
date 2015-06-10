@@ -26,3 +26,74 @@ words, the upcoming commit is going to register the changes
 done only in the files that were added to the staging area.
 
 Question 3:
+How can you use the staging area to make sure you have one
+commit per logical change?
+
+Answer 3:
+The staging area helps me compare files from the staging area
+with files from the most recent commit. It also helps compare
+this same file with those from the working directory. This is
+helpful because before committing a file, I can check thoroughly
+the changes I made to the file.
+In this section, I learned the following commands:
+git diff
+git diff --staged
+git reset --hard
+git checkout master
+
+Question 4:
+What are some situations when branches would be helpful in 
+keeping your history organized? How would branches help?
+
+Answer 4:
+Some situations could be when I want to have different
+versions of my program. For example: different languages,
+different level of difficultness. Another example could be
+when I want to test the functionality of my program with 
+the addition of a new experimental feature.
+
+Question 5:
+How do the diagrams help you visualize the branch structure?
+
+Answer 5:
+The diagrams help me see the different branches (and therefore
+versions) of my project that have been created throughout it's
+lifetime. Diagrams help collaborators of the project be more
+organized, and consequently work better individually or in
+team.
+
+Question 6:
+What is the result of merging two branches together? Why do we
+represent it in the diagram the way we do?
+
+Answer 6:
+The result is a single branch were the changes made on both the
+two branches (I would assume that this number can be more than
+two) are merged into a single branch. Let me explain this more
+clearly. The Git system will compare the two branches to be 
+merged and the original branch before these two branches 
+branched out in their separate ways. By comparing these three
+commits, the git system will consider which lines should be 
+added or removed in the new merged branch/commit. More
+specifically, these are the rules for adding and permanently
+deleting lines in the newly created branch/commit:
+
+(1)
+If a line was in the original commit, but was then deleted by
+one of the branches, then this line will not be included in 
+the new commit.
+
+(2)
+If a new line is added by one of the branches (this line was
+not in the original commit), then this line will be in the 
+newly created commit.
+
+(3)
+If a line that was in the original commit is also in both of
+the branches to merge, then this line will also be in the newly
+created commit.
+
+The end for this question :)
+
+Question 7 (I love u God!):
+
