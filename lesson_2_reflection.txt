@@ -96,4 +96,26 @@ created commit.
 The end for this question :)
 
 Question 7 (I love u God!):
+What are the pros and cons of Git's automatic merging vs.
+always doing merges manually?
+
+Answer:
+Pros:
+It saves us a lot of time by helping us avoid copying lines,
+looking for the right place to put these new lines, and
+finally pasting those new lines. 
+Another advantage of Git's automatic merge is that it also
+understands when two different branches have edited the
+same lines of code. Instead of choosing one of the two 
+branches to add in the project, Git lets you know there 
+is a conflict, and expresses that conflict in the files
+appropriately.
+
+Cons:
+Given that Git merges commits together without really
+understanding the functionality of the program, it could
+happen that after merging two branches, git deletes lines
+that stop the project from working, or adds even lines of code,
+where they should not have been added.
+
 
