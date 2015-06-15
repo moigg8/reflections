@@ -1,0 +1,32 @@
+Question 1:
+When would you want to create a remote repository rather than keeping
+all your work local?
+
+Answer 1:
+I would like to create a remote repository when I would like to share
+my work with others. 
+
+I would also like to create a remote repository if I want to keep my
+work safe against local computer damages that might prevent me prove
+getting my files back in the future. 
+
+Finally, the last reason would be if I want to pass the project
+to another computer. One way to do it would be to push the project
+to GitHub and then pull it from the second extra computer.
+
+Question 2:
+Why might you want to always pull changes manually rather than having
+Git automatically stay up-to-date with your remote repository?
+
+Answer 2:
+GitHub is used to share projects with other people. If my project is
+not ready to be shared with other people, I would not want to upload
+it to GitHub yet. If repositories were pushed automatically,
+non-functional versions or test versions of my project would be
+uploaded to GitHub everytime. This will mean other collaborators
+would be looking at unwanted versions of the project. This might
+damage the development process, and potentially damage the project
+and chemistry of the team.
+
+Question 3:
+
