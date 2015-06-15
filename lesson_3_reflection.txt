@@ -29,4 +29,33 @@ damage the development process, and potentially damage the project
 and chemistry of the team.
 
 Question 3:
+Describe the difference between forks, clones, and branches. When
+would you use one instead of another?
+
+Answer 3:
+The difference between forks and clones is that when you use clone,
+you are copying the entire git repository (files & history) from
+the GitHub servers to your local machine, while fork copies a
+repository from the GitHub servers to the GitHub servers. 
+
+The relationship of branches with commands like clone and fork, is
+that when you use either commands you are copying an entire
+repository with all its history, and therefore, branches. Branches 
+and commands fork and clone do not relate very much; they are 
+different concepts with different purposes.
+
+
+Question 4:
+What is the benefit of having a copy of the last known state of
+the remote stored locally?
+
+Answer 4:
+I would say this feature has to benefits. The first and obvious
+benefit would be that with this feature you will be able to
+compare your local repository with the most recent copy of the 
+remote repository. This way you will be able to know what
+changes exactly have you done to the repository since the last
+time you pushed/pulled. This will help you consider better
+when to exactly push projects into GitHub.
+
 
